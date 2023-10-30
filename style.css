@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed&family=Caveat:wght@700&family=Courgette&family=Edu+NSW+ACT+Foundation&family=Fuggles&family=Lilita+One&family=Lobster&family=Manrope:wght@200;400&family=Noto+Sans+Linear+B&family=Noto+Sans+NKo+Unjoined&family=Nova+Mono&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;800&family=Poppins:wght@500&family=Roboto:wght@100;300&family=Satisfy&family=Syne&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Syne, sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+section {
+  position: relative;
+  border-radius: 40px;
+  margin: 0 auto;
+  width: 415px;
+  height: 913px;
+  background-color: rgba(86, 102, 157, 1);
+}
+
+.Music-text {
+  margin-top: 41px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(233, 239, 255, 1);
+}
+
+.h2-text {
+  margin-top: 52px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(255, 205, 147, 1);
+}
+
+.h2-text::first-line {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.getstarted-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+
+.section-div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-div2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.radius1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 404px;
+  height: 404px;
+  background-color: rgba(233, 239, 255, 0.1);
+}
+.radius2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 346px;
+  height: 346px;
+  background-color: rgba(233, 239, 255, 0.1);
+}
+.radius3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 281px;
+  height: 281px;
+  border-radius: 50%;
+  background-color: rgba(233, 239, 255, 0.1);
+}
+
+.polygon {
+  margin-top: -150px;
+  height: 300px;
+  width: 415px;
+}
+
+.icon1 {
+  position: relative;
+  position: absolute;
+  left: 170px;
+  bottom: 500px;
+}
+
+.icon2 {
+  position: relative;
+  position: absolute;
+  left: 170px;
+  bottom: 300px;
+}
+
+.smoke {
+  position: relative;
+  position: absolute;
+  left: 130px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.btn {
+  position: relative;
+  z-index: 5;
+  position: absolute;
+  left: 110px;
+  top: 770px;
+  border: 4px solid;
+  color: rgba(64, 71, 86, 1);
+  font-size: 14px;
+  font-weight: 700;
+  width: 198px;
+  height: 49px;
+  background-color: rgba(255, 205, 147, 1);
+  
+}
+
+.line {
+  position: relative;
+  position: absolute;
+  left: 170px;
+  bottom: 20px;
+  border-bottom: 3px solid white;
+  border-radius: 20%;
+  width: 80px;
+}
